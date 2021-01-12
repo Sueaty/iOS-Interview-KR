@@ -1,6 +1,7 @@
 ### Optional과 관련된 면접 질문
 
-* Optional이 무엇인지 설명하시오.
+* Optional이 무엇인지 설명하시오. [출처](https://github.com/JeaSungLEE/iOSInterviewquestions)
+* Optional이 Swift에서 어떻게 구현되어 있는지 설명하시오. [출처](https://soojin.ro/blog/interview)
 * Optional의 값 추출 방식에 대해 설명하시오.
   * guard 구문을 활용한 optional binding에 대해 설명하시오.
   * Optional Chaining이 무엇인지 설명하시오.
