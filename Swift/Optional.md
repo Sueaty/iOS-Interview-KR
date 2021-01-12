@@ -103,3 +103,9 @@ if let roomNumber: Int = person.address?.room?.number {
    print("Cannot find room number")
 }
 ```
+
+#### Reference
+
+* [Optional](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+* [Swift Language Guid - Optional Chaining](https://docs.swift.org/swift-book/LanguageGuide/OptionalChaining.html)
+* 야곰 - 스위프트 프로그래밍 3판
