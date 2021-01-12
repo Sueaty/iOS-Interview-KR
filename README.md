@@ -6,4 +6,6 @@
 
 ## iOS
 
+* [Core Data - 다른 영구저장소와의 비교](https://yeonduing.tistory.com/54)
+
 ## CS
