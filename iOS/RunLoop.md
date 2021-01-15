@@ -4,7 +4,7 @@
 
 UIApplication.shared 형태의 싱글턴으로 접근 가능하다. 유저의 이벤트에 반응하여 앱의 초기 설정을 하는 역할. Background에 진입한 상태에서 추가적인 작업을 할 수 있도록 만들어주거나, 푸시알람을 받았을 때 어떤 방식으로 이를 처리할 지 등에 관한 것을 다룬다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79905096-ce2f-4df1-b854-c27ea4ccea9f/_2021-01-15__4.50.52.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79905096-ce2f-4df1-b854-c27ea4ccea9f/_2021-01-15__4.50.52.png)
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/79905096-ce2f-4df1-b854-c27ea4ccea9f/_2021-01-15__4.50.52.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210115T142855Z&X-Amz-Expires=86400&X-Amz-Signature=e974e580a5661f76b7626112cc94bbc814c51ad15ff5579ede0b4305bf13738f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2021-01-15__4.50.52.png%22" width=600>
 
 ### Main Run Loop
 
