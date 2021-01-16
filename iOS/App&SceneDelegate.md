@@ -5,8 +5,6 @@
 * 상태 변화에 따라 다른 동작을 처리하기 위한 AppDelegate methods를 설명하시오. [출처](https://github.com/JeaSungLEE/iOSInterviewquestions#ios)
   * 상태 변화에 따라 다른 동작은 iOS13 이후부터 SceneDelegate의 역할이 되었음
 
-# SceneDelegate
-
 ## iOS 12 이하 버전의 AppDelegate
 
 Application은 **1개의 process** 와 **1개의 user interface 인스턴스** 를 가졌다. <br>
