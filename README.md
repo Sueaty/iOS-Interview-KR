@@ -7,6 +7,7 @@
 * [Access Control(접근제어)](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/AccessControl.md)
 * [Defer](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/Defer.md)
 * [CaptureList](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/CaptureList.md)
+* [MemoryReference](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/MemoryReference.md)
 
 ## iOS
 
@@ -14,7 +15,6 @@
 * [오토 레이아웃과 오토 리사이징](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/%EC%98%A4%ED%86%A0%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EA%B3%BC%20%EC%98%A4%ED%86%A0%EB%A6%AC%EC%82%AC%EC%9D%B4%EC%A7%95.md)
 * [TableView](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/TableView.md)
 * [View LifeCycle](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/viewLifeCycle.md)
-* [MemoryReference](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/MemoryReference.md)
 * [RunLoop](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/RunLoop.md)
 
 ## CS
