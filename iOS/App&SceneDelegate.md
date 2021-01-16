@@ -59,7 +59,8 @@ SceneDelegate은 아래의 메소드를 갖고 있다.
 > **didDisconnect** 살펴보기 <br>
 > system은 한정 된 자원을 가지고 있기 때문에 자원을 언젠가는 회수를 해야 한다. 따라서 scene이 background에 들어간 후 어느 시점에 scene을 memory로부터 해제시킨다. 즉, <br>
 > 1. scene delegate이 메모리에서 해제됨<br>
-> 2. scene delegate이 관리하던 window 및 view 계층 메모리에서 해제됨<br>
+> 2. scene delegate이 관리하던 window 및 view 계층 메모리에서 해제됨
+
 > 따라서 didDisconnect코드 내부에서는 scene과 관련된 불필요한 자원을 돌려주는 작업을 해주면 된다. 가령 디스크나 네트워크를 통해 쉽게 데이터를 다시 불러올 수 있다거나
 재생성이 쉬운 데이터는 돌려주는게 좋지만 **scene이 다시 reconnect** 될 수 있으므로 사용자의 input과 같이 재생성이 어려운 데이터는 가지고 있어야 하니 데이터를 무조건적으로 영구삭제하면 안된다.
 
