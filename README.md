@@ -20,3 +20,5 @@
 * [AppDelegate & SceneDelegate](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/App&SceneDelegate.md)
 
 ## CS
+### Database
+* [NoSQL이란](https://sueaty.tistory.com/137)
