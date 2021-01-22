@@ -21,3 +21,5 @@
 ## CS
 ### Database
 * [NoSQL이란](https://sueaty.tistory.com/137)
+### OS
+* [프로세스와 스레드](https://yeonduing.tistory.com/59)
