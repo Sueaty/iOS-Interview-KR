@@ -47,7 +47,7 @@ struct 내에 둘 이상의 참조타입이 존재하면 그 레퍼런스 카운
 
 ### 앱 메모리
 
-<img src="/Users/alimelon/Library/Application Support/typora-user-images/스크린샷 2021-01-23 오후 11.54.44.png" width=350>
+<img width="310" alt="스크린샷 2021-01-26 오후 10 12 25" src="https://user-images.githubusercontent.com/62557093/105849328-92ec1780-6023-11eb-9249-d3d261db59c5.png">
 
 Clean 메모리는 이미지, 프레임워크 데이터 등을 포함하며, Dirty 메모리는 객체 등 앱에서 수정한 데이터들과, 프레임워크 dirty 메모리 등을 포함합니다.
 
@@ -240,9 +240,9 @@ intermediate.nextCourse = advanced
 department.courses = [intro, intermediate, advanced]
 ```
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/997d1f14-fbb9-4265-a55f-f8de81432e81/_2021-01-14__3.38.06.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210114T143840Z&X-Amz-Expires=86400&X-Amz-Signature=53df7226a2083dd19240d92cbb9c3ca5e30f91fde47a8505493e6ff41736e197&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2021-01-14__3.38.06.png%22" width=600>
+<img width="517" alt="스크린샷 2021-01-26 오후 10 14 44" src="https://user-images.githubusercontent.com/62557093/105849566-e5c5cf00-6023-11eb-9e56-405cde2b6d9a.png">
 
-intro, intermediate 코스느 다음 코스를 가지고 있다. unowned optional reference는 ARC에서 reference count를 증가시키지 않기 때문에 nil이 될 수 있다는 점을 제외하고는 unowend reference와 같은 방식으로 동작한다.
+intro, intermediate 코스는 다음 코스를 가지고 있다. unowned optional reference는 ARC에서 reference count를 증가시키지 않기 때문에 nil이 될 수 있다는 점을 제외하고는 unowend reference와 같은 방식으로 동작한다.
 
 unowend reference와 같이 nextCourse는 항상 해제되지 않은 객체를 참조하고 있어야 하지 때문에 course를 삭제할 경우에는 그 course를 nextCourse로 참조하는 관계 역시 삭제해주어야 한다.
 
@@ -294,14 +294,14 @@ https://maximeremenko.com/swift-arc-weak-references
 
 Side Table은 추가적인 객체의 정보를 저장하는 별도의 메모리 공간이다. 객체는 초기에 side Table을 가지고 있지 않는다. 객체가 weak 참조 될 때, strong 이나 unowned 카운터가 overflow 될 때 (32-bit 시스템에서 inline count는 작다) side Table이 생성된다.
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1ba0046f-245c-41a0-8ef4-ccd385321e9e/_2021-01-14__4.30.05.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210114T144023Z&X-Amz-Expires=86400&X-Amz-Signature=8938da68d57a7020435537b5c64a4c665845d97e60175e0c3e557591db9652ec&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2021-01-14__4.30.05.png%22" width=600>
+<img width="512" alt="스크린샷 2021-01-26 오후 10 16 09" src="https://user-images.githubusercontent.com/62557093/105849709-186fc780-6024-11eb-8141-1dbe29a70f31.png">
 
 side Table과 객체는 서로 가리키는 포인터가 있다. 주목할 점은 weak 참조는 side Table을 가리키고 strong과 unowned는 객체를 직접 가리킨다는 것이다. 이것은 객체를 완전히 해제되게 만든다. 따라서 언제 쓰일지 모르는 weak 참조를 위해 메모리에서 좀비 상태로 존재하는 공간을 비워낼 수 있다.
 
-<img src="/Users/alimelon/Library/Application Support/typora-user-images/스크린샷 2021-01-14 오후 11.42.50.png" alt="스크린샷 2021-01-14 오후 11.42.50" width="600" />
+<img width="511" alt="스크린샷 2021-01-26 오후 10 15 05" src="https://user-images.githubusercontent.com/62557093/105849611-f37b5480-6023-11eb-86c2-cbae633119cc.png">
 
 ### Swift Object Life Cycle
 
 https://devsday.ru/blog/details/1781
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f49ba530-4fa9-426e-9c32-c315f5e66f92/_2021-01-14__4.35.32.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210114T144324Z&X-Amz-Expires=86400&X-Amz-Signature=7330124fcefbda78c7ee956a5ee34be1145ec6e4223cd437995782cb0ff572d9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2021-01-14__4.35.32.png%22" width=400>
+<img width="357" alt="스크린샷 2021-01-26 오후 10 15 55" src="https://user-images.githubusercontent.com/62557093/105849688-10178c80-6024-11eb-97e4-368755f19812.png">
