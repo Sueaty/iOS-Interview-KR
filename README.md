@@ -8,6 +8,7 @@
 * [Defer](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/Defer.md)
 * [CaptureList](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/CaptureList.md)
 * [MemoryReference](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/MemoryReference.md)
+* [map, flatMap, compactMap](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/map%EB%93%A4.md) 
 
 ## iOS
 
