@@ -19,6 +19,18 @@ closure()
 
 위 코드에서 a는 클로저 주변의 변수와 클로저 내부의 상수가 있다. 클로저 내부의 a는 클로저가 생성될 때 초기화 된다. 그러나 연결은 되어있지 않기 때문에 클로저를 실행 했을 때, 처음 캡처한 0값이 출력된다. 그러나 b 변수는 하나이기 때문에 변화가 모두 적용된다.
 
+
+
++) 내용 추가
+
+위 코드의 b를 보면 알 수 있듯이 클로저에서 명시적 capture list를 작성하지 않으면 value type 변수일지라도 **reference capture**가 일어난다. (그래서 b 값이 10으로 출력됨) 따라서 value copy를 위해서는 [b] 와 같이 captrue list를 명시해 주어야 한다.
+
+또한 value capture된 값은 closure 안에서 변경이 불가능하다. b를 value capture 하지 않은 상태에서 closure 내부에서 변경하게 되면 reference capture이기 때문에 기존 b 역시 변경된다.
+
+
+
+
+
 ```swift
 class SimpleClass {
     var value: Int = 0
