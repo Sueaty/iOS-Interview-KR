@@ -18,6 +18,7 @@
 * [View LifeCycle](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/viewLifeCycle.md)
 * [RunLoop](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/RunLoop.md)
 * [AppDelegate & SceneDelegate](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/App&SceneDelegate.md)
+* [Rendering Process](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/RenderingProcess.md)
 
 ## CS
 ### Database
