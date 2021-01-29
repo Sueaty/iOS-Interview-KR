@@ -9,6 +9,8 @@
 * [CaptureList](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/CaptureList.md)
 * [MemoryReference](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/MemoryReference.md)
 * [map, flatMap, compactMap](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/map%EB%93%A4.md) 
+* [GCD](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/GCD.md)
+* [Initialization.md](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/Initialization.md)
 
 ## iOS
 
