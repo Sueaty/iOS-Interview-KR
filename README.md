@@ -28,3 +28,5 @@
 * [NoSQL이란](https://sueaty.tistory.com/137)
 ### OS
 * [프로세스와 스레드](https://yeonduing.tistory.com/59)
+### 네트워크
+* [http메시지](https://github.com/Sueaty/iOS-Interview-KR/blob/main/%EA%B0%9C%EB%B0%9C%20%EC%83%81%EC%8B%9D/http%EB%A9%94%EC%8B%9C%EC%A7%80.md)
