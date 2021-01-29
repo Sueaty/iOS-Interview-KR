@@ -9,6 +9,8 @@
 * [CaptureList](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/CaptureList.md)
 * [MemoryReference](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/MemoryReference.md)
 * [map, flatMap, compactMap](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/map%EB%93%A4.md) 
+* [GCD](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/GCD.md)
+* [Initialization](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/Initialization.md)
 
 ## iOS
 
@@ -19,6 +21,7 @@
 * [RunLoop](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/RunLoop.md)
 * [AppDelegate & SceneDelegate](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/App&SceneDelegate.md)
 * [Rendering Process](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/RenderingProcess.md)
+* [RxSwift - Observable](https://yeonduing.tistory.com/60)
 
 ## CS
 ### Database
