@@ -278,6 +278,10 @@ class City {
 
 이에 대처하기 위해 Country의 capitalCity의 변수를 암시적 추출 옵셔널로 선언한다. 이것은 capitalCity의 default는 nil이지만, 암묵적으로 이 값을 unwrap할 필요없이 접근할 수 있다는 것을 의미한다. 따라서 Country 객체는 name 변수가 설정되자마자 완전히 초기화 된 것으로 간주된다. 따라서 Country는 capitalCity의 init에 자기 자신 self를 넘겨줄 수 있다.
 
+이를 [Two-Phase Initialization](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID220)이라고 함. 
+
+
+
 ```swift
 var country = Country(name: "Canada", capitalName: "Ottawa")
 print("\\(country.name)'s capital city is called \\(country.capitalCity.name)")
