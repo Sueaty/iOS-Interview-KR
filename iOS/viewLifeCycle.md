@@ -73,6 +73,7 @@
   layoutIfNeeded는 즉시 업데이트 시키고 레이아웃 관련 콜백을 호출하지 않고 종료. 바로바로 변화를 보고 싶은 경우 쓰면 좋다 애니메이션 같은거에 많이 씀
 
 
+
 ## Layout Cycle
 
 https://zeddios.tistory.com/1202?category=682195
@@ -83,13 +84,13 @@ layout 변경은 **layout constraints 업데이트 후, view 계층의 모든 vi
 
 `setNeedsLayout()` 혹은 `setNeedsUpdateConstraints()`를 호출하여 예약가능
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1a073f49-442d-4935-a05a-fba36ae28b7f/_2021-01-14__11.35.14.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210115T142522Z&X-Amz-Expires=86400&X-Amz-Signature=9c3b8b573987ff7f2fa3a902fce97057da628854340a035649a8e38b251435c5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2021-01-14__11.35.14.png%22" width="600">
-
-
+<img width="511" alt="스크린샷 2021-01-29 오후 5 11 16" src="https://user-images.githubusercontent.com/62557093/106248905-0032bf00-6255-11eb-94dd-680fce134810.png">
 
 위의 그림에서 layout의 constraints가 변경 될 때까지 Application Run Loop가 반복되고, 변경이 생겼을 때 Deferred Layout Pass가 예약된다.
 
-- Constraints에 영향을 주는 요인
+
+
+- **Constraints에 영향을 주는 요인**
   - constraint 활성화 혹은 비활성화
   - constraint 상수 값 변경
   - constraint의 priority 변경
@@ -97,11 +98,13 @@ layout 변경은 **layout constraints 업데이트 후, view 계층의 모든 vi
 
 constarint 변경이 일어남 → 레이아웃 엔진이 레이아웃을 다시 계산 → superview에 다시 레이아웃이 필요하다고 표시 ( == `superview.setNeedsLayout()`)
 
+
+
 > Deferred Layout Pass = Update pass + Layout Pass
 
 ### Update Constraints (= Update Pass)
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e3f801cb-24b3-446e-bdeb-32cdc9d8f03e/_2021-01-15__4.31.22.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210115T142638Z&X-Amz-Expires=86400&X-Amz-Signature=cb7516c4fd1795564ebe824e6680bcb327236480917f78968cbe558ca743da48&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2021-01-15__4.31.22.png%22" width="600">
+<img width="510" alt="스크린샷 2021-01-29 오후 5 11 24" src="https://user-images.githubusercontent.com/62557093/106248917-04f77300-6255-11eb-9212-f1c0f7eb2397.png">
 
 **아래에서 위로**
 
@@ -109,7 +112,7 @@ setNeedsUpdateConstraints() 호출 → updateViewConstraints() 호출
 
 ### Reassign View Frames (= Layout Pass)
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e3f801cb-24b3-446e-bdeb-32cdc9d8f03e/_2021-01-15__4.31.22.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210115T142638Z&X-Amz-Expires=86400&X-Amz-Signature=cb7516c4fd1795564ebe824e6680bcb327236480917f78968cbe558ca743da48&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2021-01-15__4.31.22.png%22" width="600">"
+<img width="509" alt="스크린샷 2021-01-29 오후 5 13 36" src="https://user-images.githubusercontent.com/62557093/106249157-54d63a00-6255-11eb-91d1-99aa05b05213.png">
 
 **위에서 아래로**
 

@@ -41,6 +41,14 @@ thread-safe한 객체를 사용하는 `Texture`와 `ComponentKit` 과 같은 프
 
 
 
+---
+
+### What is Rendering Tree? 
+
+https://gist.github.com/JeOam/94e833bcefd738d805cc
+
+
+
 #### 더 자세한 내용은
 
 https://developer.apple.com/videos/play/wwdc2011/121/
