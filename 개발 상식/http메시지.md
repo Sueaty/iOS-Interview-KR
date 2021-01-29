@@ -43,7 +43,7 @@ HTTP/1.1 200 OK
 
   클라이언트에게 서버로 요청한 일이 어떻게 마무리되었는지 알려주는 부분.
 
-  ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/33fda033-a400-4ade-8f1f-f2c8424df19a/_2021-01-30__12.25.43.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/33fda033-a400-4ade-8f1f-f2c8424df19a/_2021-01-30__12.25.43.png)
+  <img width="417" alt="스크린샷 2021-01-30 오전 12 45 23" src="https://user-images.githubusercontent.com/62557093/106295983-70ad0080-6294-11eb-97da-782b42ed07bf.png">
 
   404 Error : 사용자가 요청한 페이지나 파일을 찾을 수 없을 때. 보통 페이지가 이동되거나 삭제된 경우
 
