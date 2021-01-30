@@ -22,6 +22,7 @@
 * [AppDelegate & SceneDelegate](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/App&SceneDelegate.md)
 * [Rendering Process](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/RenderingProcess.md)
 * [RxSwift - Observable](https://yeonduing.tistory.com/60)
+* [RxSwift - PublishSubject](https://yeonduing.tistory.com/61)
 
 ## CS
 ### Database
