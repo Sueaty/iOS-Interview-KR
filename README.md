@@ -22,6 +22,7 @@
 * [View LifeCycle](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/viewLifeCycle.md)
 * [RunLoop](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/RunLoop.md)
 * [AppDelegate & SceneDelegate](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/App&SceneDelegate.md)
+* [Scene-Based Life-Cycle](https://yeonduing.tistory.com/63)
 * [Rendering Process](https://github.com/Sueaty/iOS-Interview-KR/blob/main/iOS/RenderingProcess.md)
 * [RxSwift - Observable](https://yeonduing.tistory.com/60)
 * [RxSwift - PublishSubject](https://yeonduing.tistory.com/61)
