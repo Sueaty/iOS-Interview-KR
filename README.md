@@ -11,6 +11,8 @@
 * [map, flatMap, compactMap](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/map%EB%93%A4.md) 
 * [GCD](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/GCD.md)
 * [Initialization](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/Initialization.md)
+* [Nested Functions](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/NestedFunctions.md)
+* [Closure](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/Closure.md)
 
 ## iOS
 
