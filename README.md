@@ -13,6 +13,7 @@
 * [Initialization](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/Initialization.md)
 * [Nested Functions](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/NestedFunctions.md)
 * [Closure](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/Closure.md)
+* [Delegate, Notification, KVO](https://github.com/Sueaty/iOS-Interview-KR/blob/main/Swift/Delegate%2CNotification%2CKVO.md)
 
 ## iOS
 
