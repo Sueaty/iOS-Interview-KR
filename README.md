@@ -31,6 +31,7 @@
 * [RxSwift - just, of, from](https://yeonduing.tistory.com/62)
 * [Combine - 시작하기에 앞서](https://sueaty.tistory.com/140) && [Combine 기초](https://sueaty.tistory.com/141)
 * [Combine - Publisher, Subscriber ❶](https://sueaty.tistory.com/142)
+* [UIResponder](https://yeonduing.tistory.com/66)
 
 ## CS
 ### Database
