@@ -22,6 +22,7 @@
 * [Intrinsic content size, Content Hugging, Compression Resistance](https://sueaty.tistory.com/176)
 * [View Controller의 Life cycle](https://sueaty.tistory.com/178)
 * [URLSession](https://sueaty.tistory.com/181)
+* [Frame vs Bounds](https://sueaty.tistory.com/182?category=867436)
 
 * [Core Data](https://yeonduing.tistory.com/65)
 * [Core Data - 다른 영구저장소와의 비교](https://yeonduing.tistory.com/54)
